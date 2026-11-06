@@ -1,0 +1,25 @@
+@import "tailwindcss" source("../");
+
+:root {
+  --ui-primary: #002bba;
+  --ui-primary-foreground: #ffffff;
+  --ui-secondary: #f1f3f5;
+  --ui-secondary-foreground: #171717;
+  --ui-border: #e5e7eb;
+  --ui-destructive: #dc2626;
+  --ui-radius: 8px;
+
+  /* Button tokens */
+  --primary: var(--ui-primary);
+  --primary-foreground: var(--ui-primary-foreground);
+  --secondary: var(--ui-secondary);
+  --secondary-foreground: var(--ui-secondary-foreground);
+  --border: var(--ui-border);
+  --background: #ffffff;
+  --foreground: #171717;
+  --muted: #f1f3f5;
+  --ring: var(--ui-primary);
+  --destructive: var(--ui-destructive);
+  --radius-lg: var(--ui-radius);
+  --radius-md: 6px;
+}
